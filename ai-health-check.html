@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 健檢中心 | 光耀星樞 SNT</title>
+<meta name="description" content="免費 AI 導入評估報告。填寫問卷，立即取得您的企業 AI 成熟度評分與客製化導入建議。">
+<meta name="keywords" content="AI雲端辦公室,光耀星樞,SNT,AI助理,網站建置,工作流程自動化,知識管理,AI數位員工">
+<meta name="author" content="Singularity Nexus Technology">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://xingdeng.tw/ai-health-check.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://xingdeng.tw/ai-health-check.html">
+<meta property="og:title" content="AI 健檢中心 | 光耀星樞 SNT">
+<meta property="og:description" content="免費 AI 導入評估報告。填寫問卷，立即取得您的企業 AI 成熟度評分與客製化導入建議。">
+<meta property="og:image" content="https://xingdeng.tw/og-image.jpg">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="光耀星樞 SNT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI 健檢中心 | 光耀星樞 SNT">
+<meta name="twitter:description" content="免費 AI 導入評估報告。填寫問卷，立即取得您的企業 AI 成熟度評分與客製化導入建議。">
+<meta name="twitter:image" content="https://xingdeng.tw/og-image.jpg">
+<link rel="icon" type="image/jpeg" href="/favicon.jpg">
+<link rel="apple-touch-icon" href="/favicon.jpg">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script>tailwind.config={darkMode:'class',theme:{extend:{colors:{snt:{400:'#2dd4bf',500:'#14b8a6',600:'#0d9488',gold:'#fbbf24',cyan:'#06b6d4',purple:'#a855f7'},cyberDark:'#070a12',cyberPanel:'#0f172a',cyberCard:'#1e293b'},fontFamily:{sans:['Inter','Noto Sans TC','sans-serif'],mono:['Fira Code','monospace']}}}}</script>
+<style>body{font-family:'Inter','Noto Sans TC',sans-serif}::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:#070a12}::-webkit-scrollbar-thumb{background:#334155;border-radius:3px}</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://xingdeng.tw/"},{"@type":"ListItem","position":2,"name":"AI 健檢中心","item":"https://xingdeng.tw/ai-health-check.html"}]}
+</script>
+</head>
+<body class="bg-cyberDark text-slate-100 min-h-screen antialiased">
+
+<section class="py-16 md:py-24 text-center space-y-6 px-6 relative overflow-hidden">
+<div class="absolute inset-0 opacity-30" style="background:radial-gradient(ellipse at 50% 0%,rgba(6,182,212,.2) 0%,transparent 60%),radial-gradient(ellipse at 80% 50%,rgba(168,85,247,.1) 0%,transparent 50%)"></div>
+<div class="relative z-10">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-snt-500/10 border border-snt-500/30 text-snt-400 text-xs font-mono">
+<i class="fa-solid fa-heart-pulse"></i> AI Health Check · 免費健檢
+</div>
+<h1 class="text-3xl md:text-5xl font-black text-white">AI <span class="bg-gradient-to-r from-snt-400 via-cyan-400 to-amber-300 bg-clip-text text-transparent">健檢中心</span></h1>
+<p class="text-slate-400 text-base md:text-lg max-w-2xl mx-auto">免費取得您的 <span class="text-white font-semibold">AI 成熟度報告</span></p>
+<p class="text-slate-500 text-sm max-w-xl mx-auto">3 分鐘問卷，立即了解您的企業 AI 就緒度，並獲得客製化導入建議</p>
+</div>
+</section>
+
+<section class="max-w-3xl mx-auto px-6 pb-6">
+<div class="grid grid-cols-3 gap-3 text-center">
+<div class="bg-cyberPanel border border-slate-800 rounded-xl p-4">
+<div class="text-2xl font-black text-snt-400 font-mono">3</div>
+<div class="text-xs text-slate-500 mt-1">分鐘完成</div>
+</div>
+<div class="bg-cyberPanel border border-slate-800 rounded-xl p-4">
+<div class="text-2xl font-black text-cyan-400 font-mono">100%</div>
+<div class="text-xs text-slate-500 mt-1">免費評估</div>
+</div>
+<div class="bg-cyberPanel border border-slate-800 rounded-xl p-4">
+<div class="text-2xl font-black text-amber-400 font-mono">1v1</div>
+<div class="text-xs text-slate-500 mt-1">客製建議</div>
+</div>
+</div>
+</section>
+
+<section class="max-w-3xl mx-auto px-6 pb-20">
+<div id="form-section" class="bg-cyberPanel border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+
+<form id="health-form" action="https://formspree.io/f/xyzabc123" method="POST" class="space-y-6">
+<input type="hidden" name="_subject" value="AI 健檢問卷提交">
+<input type="hidden" name="_next" value="https://xingdeng.tw/ai-health-check.html?sent=ok">
+<input type="hidden" name="表單類型" value="AI 健檢問卷">
+
+<div class="space-y-4">
+<h3 class="text-base font-bold text-white flex items-center gap-2"><i class="fa-solid fa-building text-snt-400"></i> 基本資料</h3>
+<div class="grid sm:grid-cols-2 gap-4">
+<div><label class="text-xs text-slate-400 mb-1 block">公司名稱 <span class="text-rose-400">*</span></label><input required type="text" name="公司名稱" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:border-snt-500 focus:outline-none transition placeholder-slate-600" placeholder="請輸入公司名稱"></div>
+<div><label class="text-xs text-slate-400 mb-1 block">聯絡人姓名 <span class="text-rose-400">*</span></label><input required type="text" name="聯絡人姓名" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:border-snt-500 focus:outline-none transition placeholder-slate-600" placeholder="請輸入姓名"></div>
+</div>
+<div><label class="text-xs text-slate-400 mb-1 block">Email <span class="text-rose-400">*</span></label><input required type="email" name="Email" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:border-snt-500 focus:outline-none transition placeholder-slate-600" placeholder="your@email.com"></div>
+<div class="grid sm:grid-cols-2 gap-4">
+<div><label class="text-xs text-slate-400 mb-1 block">產業類別</label>
+<select name="產業類別" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:border-snt-500 focus:outline-none transition">
+<option value="">請選擇產業</option>
+<option value="餐飲業">餐飲業</option>
+<option value="零售業">零售業</option>
+<option value="服務業">服務業</option>
+<option value="教育機構">教育機構</option>
+<option value="命理業">命理業</option>
+<option value="醫美業">醫美業</option>
+<option value="房仲業">房仲業</option>
+<option value="科技業">科技業</option>
+<option value="金融業">金融業</option>
+<option value="製造業">製造業</option>
+<option value="其他">其他</option>
+</select></div>
+<div><label class="text-xs text-slate-400 mb-1 block">員工規模</label>
+<select name="員工規模" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:border-snt-500 focus:outline-none transition">
+<option value="">請選擇規模</option>
+<option value="1-10">1-10 人</option>
+<option value="11-50">11-50 人</option>
+<option value="51-200">51-200 人</option>
+<option value="201-500">201-500 人</option>
+<option value="500+">500+ 人</option>
+</select></div>
+</div>
+</div>
+
+<div class="space-y-3">
+<h3 class="text-base font-bold text-white flex items-center gap-2"><i class="fa-solid fa-bolt text-amber-400"></i> 目前最頭痛的問題 <span class="text-xs text-slate-500 font-normal">（可複選）</span></h3>
+<div class="grid sm:grid-cols-2 gap-2">
+<label class="flex items-center gap-3 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="checkbox" name="痛點" value="文件太多找不到資料" class="w-4 h-4 rounded border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">文件太多找不到資料</span>
+</label>
+<label class="flex items-center gap-3 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="checkbox" name="痛點" value="工作流程重複且耗時" class="w-4 h-4 rounded border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">工作流程重複且耗時</span>
+</label>
+<label class="flex items-center gap-3 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="checkbox" name="痛點" value="新人培訓成本過高" class="w-4 h-4 rounded border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">新人培訓成本過高</span>
+</label>
+<label class="flex items-center gap-3 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="checkbox" name="痛點" value="團隊協作效率不足" class="w-4 h-4 rounded border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">團隊協作效率不足</span>
+</label>
+<label class="flex items-center gap-3 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="checkbox" name="痛點" value="客戶回覆速度不夠快" class="w-4 h-4 rounded border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">客戶回覆速度不夠快</span>
+</label>
+<label class="flex items-center gap-3 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="checkbox" name="痛點" value="行銷內容產出太慢" class="w-4 h-4 rounded border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">行銷內容產出太慢</span>
+</label>
+</div>
+</div>
+
+<div class="space-y-3">
+<h3 class="text-base font-bold text-white flex items-center gap-2"><i class="fa-solid fa-robot text-purple-400"></i> AI 使用現況</h3>
+<div class="flex gap-3">
+<label class="flex-1 flex items-center justify-center gap-2 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="radio" name="已使用AI" value="是" class="w-4 h-4 border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">是，已在使用</span>
+</label>
+<label class="flex-1 flex items-center justify-center gap-2 bg-cyberDark border border-slate-800 hover:border-snt-500/40 rounded-xl p-3 cursor-pointer transition group">
+<input type="radio" name="已使用AI" value="否" class="w-4 h-4 border-slate-600 bg-slate-900 text-snt-500 focus:ring-snt-500 focus:ring-offset-0">
+<span class="text-sm text-slate-300 group-hover:text-white transition">否，尚未使用</span>
+</label>
+</div>
+</div>
+
+<button type="submit" class="w-full bg-gradient-to-r from-snt-600 to-cyan-600 hover:from-snt-500 hover:to-cyan-500 text-white font-bold py-3.5 rounded-xl transition text-sm flex items-center justify-center gap-2 shadow-lg shadow-snt-500/20 hover:shadow-snt-500/40">
+<i class="fa-solid fa-chart-line"></i> 免費取得 AI 健檢報告
+</button>
+<p class="text-center text-xs text-slate-500">送出即表示同意我們的 <a href="/personal-data.html" class="text-snt-400 hover:underline">個人資料保護聲明</a></p>
+</form>
+
+</div>
+
+<div id="success-section" class="hidden bg-cyberPanel border border-snt-500/30 rounded-2xl p-8 text-center space-y-4">
+<div class="w-16 h-16 mx-auto rounded-full bg-snt-500/10 border border-snt-500/30 flex items-center justify-center">
+<i class="fa-solid fa-circle-check text-snt-400 text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-white">感謝您的填寫！</h3>
+<p class="text-slate-400 text-sm max-w-md mx-auto">我們將盡快寄送您的 <span class="text-snt-400 font-semibold">AI 成熟度報告</span> 到指定信箱。</p>
+<p class="text-slate-500 text-xs">若有任何問題，歡迎聯繫 <a href="mailto:service@xingdeng.tw" class="text-snt-400 hover:underline">service@xingdeng.tw</a></p>
+<div class="pt-4">
+<a href="/booking.html" class="inline-flex items-center gap-2 bg-gradient-to-r from-snt-600 to-cyan-600 hover:from-snt-500 hover:to-cyan-500 text-white font-semibold py-2.5 px-6 rounded-xl transition text-sm">
+<i class="fa-solid fa-calendar-check"></i> 預約免費顧問諮詢
+</a>
+</div>
+</div>
+</section>
+
+<footer class="border-t border-slate-800 bg-slate-950 px-6 py-8">
+<div class="max-w-3xl mx-auto flex flex-wrap items-center justify-between gap-4 text-xs text-slate-500 font-mono">
+<div>© 2026 光耀星樞 SNT · <a href="/" class="hover:text-slate-300">首頁</a> · <a href="/pricing.html" class="hover:text-slate-300">定價</a> · <a href="/services.html" class="hover:text-slate-300">服務</a></div>
+<div><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> xingdeng.tw</div>
+</div>
+</footer>
+
+<!-- LINE Chat Float -->
+<a href="https://line.me/R/ti/p/@559julyu" target="_blank" rel="noopener" id="line-chat-float" class="fixed bottom-6 left-6 z-50 flex items-center gap-3 group" aria-label="LINE 線上諮詢">
+  <div class="w-14 h-14 rounded-full bg-[#06C755] flex items-center justify-center shadow-lg shadow-green-500/30 hover:scale-110 transition-transform relative">
+    <i class="fab fa-line text-white text-2xl"></i>
+    <span class="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full border-2 border-[#06080f] animate-pulse"></span>
+  </div>
+  <div class="hidden md:block bg-white text-slate-800 text-xs font-bold px-3 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+    LINE 線上諮詢
+  </div>
+</a>
+
+<div id="share-float" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 opacity-0 translate-y-4 transition-all duration-500" style="pointer-events:none">
+  <button onclick="toggleShare()" id="share-toggle" class="w-12 h-12 rounded-full bg-gradient-to-tr from-teal-600 to-cyan-500 text-white flex items-center justify-center shadow-lg shadow-teal-500/20 hover:scale-110 transition-transform" style="pointer-events:auto" aria-label="分享"><i class="fas fa-share-alt"></i></button>
+  <div id="share-btns" class="hidden flex flex-col gap-2">
+    <a href="https://social-plugins.line.me/lineit/share?url=CURRENT_URL" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-[#06C755] text-white flex items-center justify-center text-sm shadow-lg hover:scale-110 transition-transform ml-1" aria-label="LINE"><i class="fab fa-line"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=CURRENT_URL" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-[#1877F2] text-white flex items-center justify-center text-sm shadow-lg hover:scale-110 transition-transform ml-1" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/intent/tweet?url=CURRENT_URL&text=光耀星樞 SNT" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center text-sm shadow-lg hover:scale-110 transition-transform ml-1" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=CURRENT_URL" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-[#0A66C2] text-white flex items-center justify-center text-sm shadow-lg hover:scale-110 transition-transform ml-1" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.threads.net/intent/post?text=CURRENT_URL" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center text-sm shadow-lg hover:scale-110 transition-transform ml-1 border border-white/20" aria-label="Threads"><i class="fab fa-threads"></i></a>
+    <button onclick="copyURL()" class="w-10 h-10 rounded-full bg-slate-700 text-white flex items-center justify-center text-sm shadow-lg hover:scale-110 transition-transform ml-1" aria-label="複製網址"><i class="fas fa-link"></i></button>
+  </div>
+</div>
+<script>
+(function(){var u=encodeURIComponent(location.href);document.querySelectorAll('#share-btns a[href]').forEach(function(a){a.href=a.href.replace(/CURRENT_URL/g,u)});setTimeout(function(){var e=document.getElementById('share-float');if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},2000)})();
+function toggleShare(){document.getElementById('share-btns').classList.toggle('hidden')}
+function copyURL(){navigator.clipboard.writeText(location.href).then(function(){alert('網址已複製！')})}
+</script>
+<script>
+document.getElementById('health-form').addEventListener('submit',function(e){
+e.preventDefault();
+var f=this;
+var d=new FormData(f);
+// 組合痛點
+var pains=d.getAll('痛點');
+var painText=pains.length?pains.map(function(p){return '- '+p}).join('\n'):'未選擇';
+// 建立提交資料
+var submitData=new FormData();
+submitData.append('公司名稱',d.get('公司名稱'));
+submitData.append('聯絡人姓名',d.get('聯絡人姓名'));
+submitData.append('Email',d.get('Email'));
+submitData.append('產業類別',d.get('產業類別')||'未填寫');
+submitData.append('員工規模',d.get('員工規模')||'未填寫');
+submitData.append('已使用AI',d.get('已使用AI')||'未填寫');
+submitData.append('痛點',painText);
+submitData.append('表單類型','AI 健檢問卷');
+// 提交到 Formspree
+fetch(f.action,{method:'POST',body:submitData,headers:{'Accept':'application/json'}})
+.then(function(r){
+document.getElementById('form-section').classList.add('hidden');
+document.getElementById('success-section').classList.remove('hidden');
+})
+.catch(function(err){
+document.getElementById('form-section').classList.add('hidden');
+document.getElementById('success-section').classList.remove('hidden');
+});
+});
+</script>
+</body>
+</html>
